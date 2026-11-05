@@ -1,3 +1,13 @@
+dde-services (6.1.116) unstable; urgency=medium
+
+  * fix(power): play low battery sound via SoundEffect1 DBus service
+  * fix: activate Power1 via dsm template and fix deadlock
+  * fix(ci): pass App secrets to release workflow
+  * test: isolate epoch validation workflow events
+  * test: prepare isolated epoch release fixtures
+
+ -- MyLeeJiEun <70250755+MyLeeJiEun@users.noreply.github.com>  Thu, 05 Nov 2026 14:23:04 +0800
+
 dde-services (1.0.50) unstable; urgency=medium
 
   * test(shortcut): isolate capture result cases
